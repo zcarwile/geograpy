@@ -13,12 +13,12 @@ class Extractor(object):
         self.places = []
     
     def set_text(self):
-        self.text = "URLs not supported"
         #if not self.text and self.url:
         #    a = Article(self.url)
         #    a.download()
         #    a.parse()
         #    self.text = a.text
+	pass
 
 
     def find_entities(self):
