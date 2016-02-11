@@ -23,6 +23,6 @@ setup(name='geograpy',
       ],
       scripts=['geograpy/bin/geograpy-nltk'],
       package_data = {
-            'geograpy': ['data/*.csv'],
+            'geograpy': ['data/*.csv','locs.db'],
       },
       zip_safe=False)
