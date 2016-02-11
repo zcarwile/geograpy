@@ -19,7 +19,6 @@ setup(name='geograpy',
       install_requires=[
             'numpy',
             'nltk',
-            'jellyfish',
             'pycountry'
       ],
       scripts=['geograpy/bin/geograpy-nltk'],
